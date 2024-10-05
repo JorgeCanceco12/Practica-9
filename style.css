@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+article{
+    background-color: rgb(199,247,247);
+}
+nav{
+    background-color: rgb(56,55,55);
+}
+footer {
+    background-color: #1E6DA5; /* Color de fondo del footer */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+h3, p {
+    margin: 0;
+}
+
+.ubicacion, .contacto {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.ubicacion {
+    text-align: left;
+}
+
+.contacto {
+    text-align: right;
+}

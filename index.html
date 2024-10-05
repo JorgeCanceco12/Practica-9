@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Enlace al archivo de estilos personalizado -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Enlace al archivo CSS de Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="Bootstrap/bootstrap.min.css">
+    <!-- Enlace al archivo JavaScript de Bootstrap -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <title>Ejemplo con Bootstrap</title>
+</head>
+<body>
+    <!-- Comienzo del encabezado de la página -->
+    <header>
+        <nav>
+            <!-- Navegación utilizando clases de Bootstrap para el diseño de la barra -->
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="galeria.html">Galería</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Comienzo del contenido principal -->
+    <article>
+        <div class="container">
+            <h1>Mi página con Bootstrap</h1>
+            <p>Bootstrap es un framework front-end utilizado para desarrollar aplicaciones web y sitios móviles primero, o sea, con un diseño que se adapta a la pantalla del dispositivo utilizado por el usuario.</p>
+
+            <!-- Tabla utilizando clases de Bootstrap para el estilo -->
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Paterno</th>
+                        <th scope="col">Materno</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Luis</td>
+                        <td>Ramos</td>
+                        <td>Gómez</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>María</td>
+                        <td>Castro</td>
+                        <td>Lope</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Carlos</td>
+                        <td>Sánchez</td>
+                        <td>Díaz</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- Uso del sistema de rejilla (grid) de Bootstrap -->
+            <div class="row">
+                <!-- Tarjeta 1 -->
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Compiladores</h5>
+                            <p class="card-text">Aprender cómo funcionan los compiladores es clave para entender los lenguajes de programación.</p>
+                            <a href="compiladores.html" class="card-link">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tarjeta 2 -->
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Contabilidad</h5>
+                            <p class="card-text">La contabilidad es fundamental para el manejo eficiente de los recursos de una empresa.</p>
+                            <a href="contabilidad.html" class="card-link">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tarjeta 3 -->
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Base de Datos</h5>
+                            <p class="card-text">Las bases de datos permiten almacenar y gestionar grandes volúmenes de información.</p>
+                            <a href="basededatos.html" class="card-link">Leer más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+    
+    <!-- Comienzo del pie de página -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h3>UBICACIÓN</h3>
+                    <p>Tuxtla Gutiérrez, Chiapas</p>
+                </div>
+                <div class="col-6">
+                    <h3>CONTACTO</h3>
+                    <p>jorge.canceco80@unach.mx</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
